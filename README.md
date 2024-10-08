@@ -79,7 +79,7 @@ This can be changed in the config, but be sure you mount a volume to the contain
 
 ### cron
 
-You will then need to edit `/config/crontabs/root` to set cron jobs to run rsnapshot.
+You will then need to edit `/config/crontabs/root` to set cron jobs and restart the container to apply changes and run rsnapshot.
 By default no cron jobs are enabled. Examples are includes based on information from the [rsnapshot readme](https://github.com/rsnapshot/rsnapshot/blob/master/README.md#configuration).
 
 ## Usage
